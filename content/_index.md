@@ -6,7 +6,7 @@ date: 2025-11-14
 <div class="home-content">
 <div class="home-text">
 
-# [Your Name]
+# **Nicolau Blanchet**
 
 **[Your Position]** | [Your Institution]
 
