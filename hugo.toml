@@ -32,9 +32,8 @@ copyright = "Copyright © 2025"
   hideMadeWithLine = false
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+  [markup.goldmark.renderer]
+unsafe = true
 
 # Configure main menu
 [[menu.main]]
