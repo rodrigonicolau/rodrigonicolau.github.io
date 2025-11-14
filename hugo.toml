@@ -1,6 +1,6 @@
 baseURL = 'https://rodrigonicolau.github.io/'
 languageCode = 'en-us'
-title = 'Rodrigo Nicolau Blanchet'
+title = 'Rodrigo </b>Nicolau Blanchet</b>'
 theme = 'hugo-bearblog'
 
 # Generate a nice robots.txt for SEO
