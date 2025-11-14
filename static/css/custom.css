@@ -223,7 +223,7 @@ main p, main li {
 footer {
   margin-top: 0.5rem;
   padding-top: 0.5rem;
-  font-size: 14px;
+  font-size: 12px;
   color: var(--text-secondary);
 }
 
