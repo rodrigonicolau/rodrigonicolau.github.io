@@ -3,11 +3,14 @@ title: "Welcome"
 date: 2025-11-14
 ---
 
-# Welcome to My Academic Website
+<div class="home-content">
+<div class="home-text">
 
-Hello! I'm [Your Name], a [Your Position] at [Your Institution].
+# [Your Name]
 
-My research focuses on [Your Research Area]. I'm particularly interested in [Specific Topics].
+**[Your Position]** | [Your Institution]
+
+Hello! I'm a [Your Position] at [Your Institution]. My research focuses on [Your Research Area]. I'm particularly interested in [Specific Topics].
 
 ## Recent Updates
 
@@ -21,4 +24,12 @@ My research focuses on [Your Research Area]. I'm particularly interested in [Spe
 - Research Area 2
 - Research Area 3
 
-Feel free to explore my [research](/research/), [publications](/publications/), and [blog](/blog/) to learn more about my work.
+Feel free to explore my [research](/research/) and [blog](/blog/) to learn more about my work.
+
+</div>
+<div class="profile-picture">
+<!-- Replace this with your profile image -->
+<!-- <img src="/images/profile.jpg" alt="Profile Picture"> -->
+Profile Picture Placeholder
+</div>
+</div>

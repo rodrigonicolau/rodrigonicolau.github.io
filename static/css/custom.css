@@ -1,11 +1,11 @@
 /* Custom Academic Website Styling */
 
-/* Import Tiempos Text or similar serif font - using Georgia as fallback which is similar */
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&family=Lora:wght@400;600&display=swap');
+/* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 /* Root variables */
 :root {
-  --bg-color: #002676;
+  --bg-color: #010133;
   --text-color: #ffffff;
   --link-color: #9FD1FF;
   --link-hover: #CCE8FF;
@@ -13,7 +13,7 @@
 
 /* Body and base typography */
 body {
-  font-family: 'Lora', 'Georgia', 'Tiempos Text', serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 15px;
   line-height: 1.5;
   letter-spacing: 0.01em;
@@ -206,6 +206,40 @@ dd {
   }
 }
 
+/* Home page layout with profile picture */
+.home-content {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.home-text {
+  flex: 1;
+}
+
+.profile-picture {
+  flex-shrink: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: rgba(159, 209, 255, 0.1);
+  border: 2px solid rgba(159, 209, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(159, 209, 255, 0.5);
+  font-size: 14px;
+  text-align: center;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
   body {
@@ -223,5 +257,15 @@ dd {
 
   header nav ul {
     gap: 1rem;
+  }
+
+  .home-content {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .profile-picture {
+    width: 150px;
+    height: 150px;
   }
 }

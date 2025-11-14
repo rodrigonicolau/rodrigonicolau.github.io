@@ -1,0 +1,7 @@
+To add your CV:
+1. Create or export your CV as a PDF file
+2. Name it "cv.pdf"
+3. Place it in the static/files/ directory (replace this placeholder)
+4. The CV menu item will automatically link to it
+
+The menu is already configured to download /files/cv.pdf when clicked.

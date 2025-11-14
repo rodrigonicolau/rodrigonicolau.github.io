@@ -5,37 +5,42 @@ date: 2025-11-14
 
 # Research
 
-## Current Projects
+## Working Papers
+
+### Paper Title 1
+Brief description of your working paper. Include the main research question, methodology, and key findings.
+
+**Co-authors**: [Names]
+**Status**: [Under review / Revise and resubmit / etc.]
+
+### Paper Title 2
+Brief description of another working paper.
+
+**Co-authors**: [Names]
+**Status**: [Draft / Under review / etc.]
+
+### Paper Title 3
+Brief description of another working paper.
+
+**Co-authors**: [Names]
+**Status**: [Draft / Under review / etc.]
+
+## Work in Progress
 
 ### Project Title 1
-Brief description of your current research project. Include the main objectives, methods, and expected outcomes.
+Brief description of your ongoing research project. Include the main objectives and expected contributions.
 
-**Funding**: [Funding Agency], [Grant Number]
-**Collaborators**: [Names]
+**Co-authors**: [Names]
+**Expected completion**: [Timeline]
 
 ### Project Title 2
-Brief description of another current research project.
+Brief description of another research project in progress.
 
-**Funding**: [Funding Agency], [Grant Number]
-**Collaborators**: [Names]
-
-## Past Projects
+**Co-authors**: [Names]
+**Expected completion**: [Timeline]
 
 ### Project Title 3
-Description of completed research project and its outcomes.
+Brief description of another research project in progress.
 
-## Research Areas
-
-### Area 1: [Topic]
-Detailed description of your research in this area.
-
-### Area 2: [Topic]
-Detailed description of your research in this area.
-
-### Area 3: [Topic]
-Detailed description of your research in this area.
-
-## Resources
-
-- [Dataset/Tool Name]: Brief description and link
-- [Software/Code Repository]: Brief description and link
+**Co-authors**: [Names]
+**Expected completion**: [Timeline]
