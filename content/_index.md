@@ -6,11 +6,7 @@ date: 2025-11-14
 <div class="home-content">
 <div class="home-text">
 
-# [Your Name]
-
-**[Your Position]** | [Your Institution]
-
-Hello! I'm a [Your Position] at [Your Institution]. My research focuses on [Your Research Area]. I'm particularly interested in [Specific Topics].
+Hello! I'm a PhD Student in Economics at the University of California, Berkeley. My research lies at the intersection between Public, Development, and Behavioral Economics. 
 
 </div>
 <div class="profile-picture">
