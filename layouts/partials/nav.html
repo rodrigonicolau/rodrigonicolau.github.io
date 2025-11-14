@@ -1,6 +1,10 @@
 <ul>
 {{ range .Site.Menus.main }}
-<li><a href="{{ .URL }}">{{ .Name }}</a></li>
+<li>
+  <a href="{{ .URL }}">{{ .Name }}</a>
+  {{ if eq .Name "Blog" }}
+  <button class="theme-toggle" aria-label="Toggle theme">○</button>
+  {{ end }}
+</li>
 {{ end }}
 </ul>
-<button class="theme-toggle" aria-label="Toggle theme">🌙</button>
