@@ -39,8 +39,8 @@ html {
 
 body {
   font-family: 'EB Garamond', 'Crimson Text', 'Georgia', serif;
-  font-size: 22px;
-  line-height: 1.7;
+  font-size: 18px;
+  line-height: 1.6;
   letter-spacing: 0.01em;
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -60,42 +60,42 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.9rem;
+  font-size: 2.2rem;
   line-height: 1.3;
-  margin: 1rem 0 1rem 0;
+  margin: 0.8rem 0 0.8rem 0;
   letter-spacing: -0.01em;
 }
 
 h2 {
-  font-size: 2.2rem;
+  font-size: 1.6rem;
   line-height: 1.3;
-  margin: 1.75rem 0 0.9rem 0;
+  margin: 1.4rem 0 0.7rem 0;
   letter-spacing: -0.01em;
 }
 
 h3 {
-  font-size: 1.65rem;
+  font-size: 1.3rem;
   line-height: 1.3;
-  margin: 1.5rem 0 0.7rem 0;
+  margin: 1.2rem 0 0.6rem 0;
   font-weight: 600;
 }
 
 h4, h5, h6 {
-  font-size: 1.3rem;
-  margin: 1rem 0 0.6rem 0;
+  font-size: 1.1rem;
+  margin: 1rem 0 0.5rem 0;
   font-weight: 600;
 }
 
-/* Subtitle on home page - bigger */
+/* Subtitle on home page */
 .home-text > p:first-of-type {
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 19px;
+  font-weight: 400;
 }
 
 /* Paragraphs */
 p {
-  margin: 0 0 1rem 0;
-  font-size: 22px;
+  margin: 0 0 0.8rem 0;
+  font-size: 18px;
   color: var(--text-color);
 }
 
@@ -117,11 +117,11 @@ a:visited {
 
 /* Navigation header - Consistent across all pages */
 header {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 header nav {
-  padding-bottom: 1.25rem;
+  padding-bottom: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -132,7 +132,7 @@ header nav ul {
   padding: 0;
   margin: 0;
   display: flex;
-  gap: 1.5rem;
+  gap: 1.2rem;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -142,70 +142,73 @@ header nav li {
 }
 
 header nav a {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 400;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
   color: var(--text-color);
 }
 
-/* Theme toggle button - Jekyll style sun/moon with extra room */
+/* Theme toggle button - Font Awesome icons */
 .theme-toggle {
   background: none;
   border: none;
-  color: var(--text-secondary);
+  color: var(--text-color);
   cursor: pointer;
-  padding: 0 0.4rem;
-  margin-left: 0.8rem;
+  padding: 0.2rem 0.4rem;
+  margin-left: 1rem;
   border-radius: 3px;
-  font-size: 20px;
+  font-size: 16px;
   transition: all 0.3s ease;
   line-height: 1;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .theme-toggle:hover {
-  opacity: 0.9;
+  opacity: 1;
+  color: var(--link-color);
 }
 
 /* Lists */
 ul, ol {
-  margin: 0 0 1rem 0;
-  padding-left: 2rem;
+  margin: 0 0 0.8rem 0;
+  padding-left: 1.8rem;
 }
 
 li {
-  margin-bottom: 0.4rem;
-  line-height: 1.7;
+  margin-bottom: 0.3rem;
+  line-height: 1.6;
   color: var(--text-color);
+  font-size: 18px;
 }
 
 /* Blog post listings */
 ul.blog-posts {
   list-style-type: none;
   padding: 0;
-  margin: 1.25rem 0;
+  margin: 1rem 0;
 }
 
 ul.blog-posts li {
   display: flex;
-  margin-bottom: 0.8rem;
-  gap: 1.25rem;
+  margin-bottom: 0.6rem;
+  gap: 1rem;
 }
 
 ul.blog-posts li span {
-  flex: 0 0 130px;
+  flex: 0 0 110px;
   color: var(--text-secondary);
-  font-size: 19px;
+  font-size: 16px;
 }
 
 ul.blog-posts li a {
   color: var(--link-color);
   flex: 1;
+  font-size: 17px;
 }
 
 /* Main content area */
 main {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 main h1, main h2, main h3, main h4, main h5, main h6 {
@@ -218,30 +221,30 @@ main p, main li {
 
 /* Footer - Consistent across all pages */
 footer {
-  margin-top: 2.5rem;
-  padding-top: 1.25rem;
-  font-size: 18px;
+  margin-top: 1.5rem;
+  padding-top: 0.8rem;
+  font-size: 15px;
   color: var(--text-secondary);
 }
 
 /* Code blocks */
 code {
   font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace;
-  font-size: 18px;
+  font-size: 15px;
   background-color: var(--code-bg);
-  padding: 0.15rem 0.4rem;
+  padding: 0.1rem 0.3rem;
   border-radius: 3px;
   color: var(--text-color);
 }
 
 pre {
-  font-size: 18px;
+  font-size: 15px;
   background-color: var(--code-bg);
-  padding: 1rem;
+  padding: 0.8rem;
   overflow-x: auto;
   border-radius: 4px;
   line-height: 1.5;
-  margin: 1.25rem 0;
+  margin: 1rem 0;
 }
 
 pre code {
@@ -251,24 +254,25 @@ pre code {
 
 /* Blockquotes */
 blockquote {
-  margin: 1rem 0;
-  padding-left: 1.25rem;
-  border-left: 3px solid var(--link-color);
+  margin: 0.8rem 0;
+  padding-left: 1rem;
+  border-left: 2px solid var(--link-color);
   color: var(--text-color);
   font-style: italic;
+  font-size: 17px;
 }
 
 /* Tables */
 table {
-  font-size: 19px;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.5;
   border-collapse: collapse;
   width: 100%;
-  margin: 1.25rem 0;
+  margin: 1rem 0;
 }
 
 th, td {
-  padding: 0.6rem 0.75rem;
+  padding: 0.5rem 0.6rem;
   text-align: left;
   color: var(--text-color);
 }
@@ -295,12 +299,12 @@ img {
   border-radius: 4px;
 }
 
-/* Home page layout with profile picture - bigger */
+/* Home page layout with profile picture - smaller, minimalistic */
 .home-content {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   align-items: flex-start;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .home-text {
@@ -309,17 +313,17 @@ img {
 
 .profile-picture {
   flex-shrink: 0;
-  width: 320px;
-  height: 256px; /* 15:12 ratio (320 * 0.8) */
-  border-radius: 4px;
+  width: 240px;
+  height: 192px; /* 15:12 ratio */
+  border-radius: 3px;
   overflow: hidden;
   background-color: var(--code-bg);
-  border: 2px solid var(--border-color);
+  border: 1px solid var(--border-color);
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--text-secondary);
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -329,20 +333,20 @@ img {
   object-fit: cover;
 }
 
-/* Contact information section - much smaller icons */
+/* Contact information section - smaller, minimal */
 .contact-info {
   flex-shrink: 0;
-  width: 320px;
-  margin-top: 1rem;
+  width: 240px;
+  margin-top: 0.8rem;
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 0.4rem;
 }
 
 .contact-info a {
   color: var(--text-color);
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
   display: flex;
   align-items: center;
   gap: 0.4rem;
@@ -354,31 +358,31 @@ img {
 }
 
 .contact-info svg {
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   flex-shrink: 0;
   fill: currentColor;
 }
 
-/* Last updated text */
+/* Last updated text - minimal spacing */
 .last-updated {
-  font-size: 18px;
+  font-size: 15px;
   color: var(--text-secondary);
   font-style: italic;
-  margin-top: 2.5rem;
-  padding-top: 1.25rem;
+  margin-top: 0.5rem;
+  padding-top: 0;
 }
 
 /* Meta information */
 .meta, time {
-  font-size: 18px;
+  font-size: 15px;
   color: var(--text-secondary);
 }
 
-/* Research paper styles */
+/* Research paper styles - minimal */
 .paper {
-  margin-bottom: 1.75rem;
-  padding-bottom: 1.5rem;
+  margin-bottom: 1.4rem;
+  padding-bottom: 1rem;
 }
 
 .paper:last-child {
@@ -386,9 +390,9 @@ img {
 }
 
 .paper-title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 .paper-title a {
@@ -396,9 +400,9 @@ img {
 }
 
 .paper-meta {
-  font-size: 18px;
+  font-size: 15px;
   color: var(--text-secondary);
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.5rem;
 }
 
 .paper-meta strong {
@@ -406,12 +410,12 @@ img {
 }
 
 .paper-links {
-  margin-top: 0.6rem;
+  margin-top: 0.5rem;
 }
 
 .paper-links a {
-  font-size: 17px;
-  margin-right: 0.9rem;
+  font-size: 15px;
+  margin-right: 0.8rem;
   color: var(--link-color);
 }
 
@@ -419,17 +423,17 @@ img {
   text-decoration: underline;
 }
 
-/* Collapsible abstract */
+/* Collapsible abstract - minimal */
 details {
-  margin-top: 0.6rem;
+  margin-top: 0.5rem;
 }
 
 summary {
   cursor: pointer;
-  font-size: 18px;
+  font-size: 15px;
   color: var(--link-color);
   user-select: none;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.5rem;
 }
 
 summary:hover {
@@ -437,25 +441,25 @@ summary:hover {
 }
 
 details[open] summary {
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.5rem;
 }
 
 details p {
-  font-size: 19px;
-  line-height: 1.7;
-  padding-left: 0.6rem;
-  margin-top: 0.6rem;
+  font-size: 16px;
+  line-height: 1.6;
+  padding-left: 0.5rem;
+  margin-top: 0.5rem;
   color: var(--text-color);
 }
 
 /* Ensure consistent spacing across pages */
 article, section {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 article p, article li, section p, section li {
   color: var(--text-color);
-  font-size: 22px;
+  font-size: 18px;
 }
 
 article h1, article h2, article h3, section h1, section h2, section h3 {
@@ -476,46 +480,58 @@ main > h1:first-child {
   margin-top: 0;
 }
 
-/* Blog post content - ensure all text is properly colored */
+/* Blog post content - ensure all text is properly colored and sized */
 .content p, .content li, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
   color: var(--text-color);
 }
 
 .content p {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .content li {
-  font-size: 22px;
+  font-size: 18px;
+}
+
+.content h1 {
+  font-size: 2.2rem;
+}
+
+.content h2 {
+  font-size: 1.6rem;
+}
+
+.content h3 {
+  font-size: 1.3rem;
 }
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
   body {
-    font-size: 19px;
+    font-size: 16px;
     padding: 1rem;
   }
 
   h1 {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
 
   h2 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
   }
 
   h3 {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
 
   header nav {
     flex-direction: column;
     align-items: flex-start;
-    gap: 1rem;
+    gap: 0.8rem;
   }
 
   header nav ul {
-    gap: 1.25rem;
+    gap: 1rem;
   }
 
   .home-content {
@@ -524,12 +540,12 @@ main > h1:first-child {
   }
 
   .profile-picture {
-    width: 260px;
-    height: 208px; /* Maintain 15:12 ratio */
+    width: 200px;
+    height: 160px; /* Maintain 15:12 ratio */
   }
 
   .contact-info {
-    width: 260px;
+    width: 200px;
   }
 }
 

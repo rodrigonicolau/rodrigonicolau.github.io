@@ -1,4 +1,4 @@
-// Theme toggle functionality - Jekyll style sun/moon
+// Theme toggle functionality - Font Awesome sun/moon icons
 (function() {
   // Get theme from localStorage or default to dark
   const getTheme = () => localStorage.getItem('theme') || 'dark';
@@ -10,11 +10,16 @@
     updateToggleButton(theme);
   };
 
-  // Update toggle button text - Jekyll style sun/moon
+  // Update toggle button icon - Font Awesome sun/moon
   const updateToggleButton = (theme) => {
     const button = document.querySelector('.theme-toggle');
     if (button) {
-      button.textContent = theme === 'dark' ? '☀️' : '🌙';
+      const icon = button.querySelector('i');
+      if (icon) {
+        // Dark mode shows sun icon (to switch to light)
+        // Light mode shows moon icon (to switch to dark)
+        icon.className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+      }
       button.setAttribute('aria-label', `Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`);
     }
   };
