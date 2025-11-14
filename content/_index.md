@@ -33,3 +33,7 @@ Feel free to explore my [research](/research/) and [blog](/blog/) to learn more 
 Profile Picture Placeholder
 </div>
 </div>
+
+<div class="last-updated">
+Last updated: November 2025
+</div>
