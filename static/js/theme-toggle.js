@@ -1,4 +1,4 @@
-// Theme toggle functionality
+// Theme toggle functionality - emoji only
 (function() {
   // Get theme from localStorage or default to dark
   const getTheme = () => localStorage.getItem('theme') || 'dark';
@@ -10,11 +10,11 @@
     updateToggleButton(theme);
   };
 
-  // Update toggle button text
+  // Update toggle button text - emoji only
   const updateToggleButton = (theme) => {
     const button = document.querySelector('.theme-toggle');
     if (button) {
-      button.textContent = theme === 'dark' ? '☀ Light' : '🌙 Dark';
+      button.textContent = theme === 'dark' ? '☀️' : '🌙';
       button.setAttribute('aria-label', `Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`);
     }
   };

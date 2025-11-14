@@ -1,0 +1,12 @@
+To add your favicon (browser tab icon):
+
+1. Create or obtain a square image (at least 32x32 pixels, preferably 512x512)
+2. Convert it to .ico or .png format
+3. Name it "favicon.ico" or "favicon.png"
+4. Place it in the /static/ directory (it will replace the placeholder)
+
+The favicon will automatically appear in browser tabs once deployed.
+
+You can use online tools like:
+- https://favicon.io/ (generate from text, image, or emoji)
+- https://realfavicongenerator.net/ (comprehensive favicon generator)
