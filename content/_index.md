@@ -6,17 +6,11 @@ date: 2025-11-14
 <div class="home-content">
 <div class="home-text">
 
-# **Nicolau Blanchet**
-
-**[Your Position]** | [Your Institution]
-
-Hello! I'm a [Your Position] at [Your Institution]. My research focuses on [Your Research Area]. I'm particularly interested in [Specific Topics].
+Hello! I'm a PhD Student in Economics at the University of California, Berkeley. My research interests lie at the intersection between public, development, and behavioral economics. 
 
 </div>
 <div class="profile-picture">
-<!-- Replace this with your profile image -->
-<!-- <img src="/images/profile.jpg" alt="Profile Picture"> -->
-Profile Picture Placeholder
+<img src="/images/profile-picture.jpg" alt="Profile Picture">  
 </div>
 </div>
 
