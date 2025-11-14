@@ -10,8 +10,7 @@ Hello! I'm a PhD Student in Economics at the University of California, Berkeley.
 
 </div>
 <div class="profile-picture">
-<!-- Replace this with your profile image -->
-<!-- <img src="/images/profile-picture.jpg" alt="Profile Picture"> -->
+<-- <img src="/images/profile-picture.jpg" alt="Profile Picture"> -->
 Profile Picture Placeholder
 </div>
 </div>
