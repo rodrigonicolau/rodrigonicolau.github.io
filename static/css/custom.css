@@ -60,35 +60,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 2.6rem;
   line-height: 1.3;
   margin: 0.8rem 0 0.8rem 0;
   letter-spacing: -0.01em;
 }
 
 h2 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.3;
   margin: 1.4rem 0 0.7rem 0;
   letter-spacing: -0.01em;
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   line-height: 1.3;
   margin: 1.2rem 0 0.6rem 0;
   font-weight: 600;
 }
 
 h4, h5, h6 {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   margin: 1rem 0 0.5rem 0;
   font-weight: 600;
 }
 
-/* Subtitle on home page */
+/* Subtitle on home page - bigger than body text */
 .home-text > p:first-of-type {
-  font-size: 19px;
+  font-size: 21px;
   font-weight: 400;
 }
 
@@ -142,7 +142,7 @@ header nav li {
 }
 
 header nav a {
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 400;
   letter-spacing: 0.01em;
   color: var(--text-color);
@@ -221,8 +221,8 @@ main p, main li {
 
 /* Footer - Consistent across all pages */
 footer {
-  margin-top: 1.5rem;
-  padding-top: 0.8rem;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
   font-size: 15px;
   color: var(--text-secondary);
 }
@@ -299,7 +299,7 @@ img {
   border-radius: 4px;
 }
 
-/* Home page layout with profile picture - smaller, minimalistic */
+/* Home page layout with profile picture - balanced size */
 .home-content {
   display: flex;
   gap: 2rem;
@@ -313,8 +313,8 @@ img {
 
 .profile-picture {
   flex-shrink: 0;
-  width: 240px;
-  height: 192px; /* 15:12 ratio */
+  width: 280px;
+  height: 224px; /* 15:12 ratio */
   border-radius: 3px;
   overflow: hidden;
   background-color: var(--code-bg);
@@ -333,20 +333,20 @@ img {
   object-fit: cover;
 }
 
-/* Contact information section - smaller, minimal */
+/* Contact information section - sized to match picture */
 .contact-info {
   flex-shrink: 0;
-  width: 240px;
+  width: 280px;
   margin-top: 0.8rem;
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 0.5rem;
 }
 
 .contact-info a {
   color: var(--text-color);
   text-decoration: none;
-  font-size: 15px;
+  font-size: 16px;
   display: flex;
   align-items: center;
   gap: 0.4rem;
@@ -358,8 +358,8 @@ img {
 }
 
 .contact-info svg {
-  width: 14px;
-  height: 14px;
+  width: 15px;
+  height: 15px;
   flex-shrink: 0;
   fill: currentColor;
 }
@@ -370,6 +370,7 @@ img {
   color: var(--text-secondary);
   font-style: italic;
   margin-top: 0.5rem;
+  margin-bottom: 0.3rem;
   padding-top: 0;
 }
 
@@ -487,6 +488,7 @@ main > h1:first-child {
 
 .content p {
   font-size: 18px;
+  margin: 0 0 0.8rem 0;
 }
 
 .content li {
@@ -494,15 +496,32 @@ main > h1:first-child {
 }
 
 .content h1 {
-  font-size: 2.2rem;
+  font-size: 2.6rem;
+  line-height: 1.3;
+  margin: 0.8rem 0 0.8rem 0;
 }
 
 .content h2 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  line-height: 1.3;
+  margin: 1.4rem 0 0.7rem 0;
 }
 
 .content h3 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  line-height: 1.3;
+  margin: 1.2rem 0 0.6rem 0;
+}
+
+.content h4 {
+  font-size: 1.15rem;
+}
+
+/* Blog post meta and timestamps */
+.content time,
+.content .meta {
+  font-size: 15px;
+  color: var(--text-secondary);
 }
 
 /* Responsive adjustments */
@@ -540,12 +559,12 @@ main > h1:first-child {
   }
 
   .profile-picture {
-    width: 200px;
-    height: 160px; /* Maintain 15:12 ratio */
+    width: 220px;
+    height: 176px; /* Maintain 15:12 ratio */
   }
 
   .contact-info {
-    width: 200px;
+    width: 220px;
   }
 }
 
