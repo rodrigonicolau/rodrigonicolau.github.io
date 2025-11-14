@@ -15,7 +15,7 @@ date: 2025-11-14
 </details>
 <div class="paper-links">
 <a href="#">Media</a>
-<a href="#">Code</a>
+<a href="#">Slides</a>
 </div>
 </div>
 
