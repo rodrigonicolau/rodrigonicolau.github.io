@@ -1,7 +1,7 @@
 /* Custom Academic Website Styling - Applied to ALL pages */
 
-/* Import Copernicus-like serif font - using Crimson Text which is similar */
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=EB+Garamond:wght@400;500;600&display=swap');
+/* Import minimalistic sans-serif font - Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 /* Root variables for dark mode (default) */
 :root {
@@ -38,10 +38,10 @@ html {
 }
 
 body {
-  font-family: 'EB Garamond', 'Crimson Text', 'Georgia', serif;
-  font-size: 18px;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 17px;
   line-height: 1.6;
-  letter-spacing: 0.01em;
+  letter-spacing: -0.01em;
   background-color: var(--bg-color);
   color: var(--text-color);
   max-width: 750px;
@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-color);
   font-weight: 600;
   transition: color 0.3s ease;
-  font-family: 'EB Garamond', 'Crimson Text', 'Georgia', serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 h1 {
@@ -88,14 +88,14 @@ h4, h5, h6 {
 
 /* Subtitle on home page - bigger than body text */
 .home-text > p:first-of-type {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
 }
 
 /* Paragraphs */
 p {
   margin: 0 0 0.8rem 0;
-  font-size: 18px;
+  font-size: 17px;
   color: var(--text-color);
 }
 
@@ -178,7 +178,7 @@ li {
   margin-bottom: 0.3rem;
   line-height: 1.6;
   color: var(--text-color);
-  font-size: 18px;
+  font-size: 17px;
 }
 
 /* Blog post listings */
@@ -217,13 +217,14 @@ main h1, main h2, main h3, main h4, main h5, main h6 {
 
 main p, main li {
   color: var(--text-color);
+  font-size: 17px;
 }
 
 /* Footer - Consistent across all pages */
 footer {
-  margin-top: 0.5rem;
-  padding-top: 0.5rem;
-  font-size: 12px;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  font-size: 15px;
   color: var(--text-secondary);
 }
 
@@ -364,13 +365,13 @@ img {
   fill: currentColor;
 }
 
-/* Last updated text - minimal spacing */
+/* Last updated text - pushed down */
 .last-updated {
   font-size: 15px;
   color: var(--text-secondary);
   font-style: italic;
-  margin-top: 0.5rem;
-  margin-bottom: 0.3rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
   padding-top: 0;
 }
 
@@ -380,10 +381,10 @@ img {
   color: var(--text-secondary);
 }
 
-/* Research paper styles - minimal */
+/* Research paper styles - larger, more prominent */
 .paper {
-  margin-bottom: 1.4rem;
-  padding-bottom: 1rem;
+  margin-bottom: 1.6rem;
+  padding-bottom: 1.2rem;
 }
 
 .paper:last-child {
@@ -391,9 +392,9 @@ img {
 }
 
 .paper-title {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 600;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
 }
 
 .paper-title a {
@@ -401,9 +402,9 @@ img {
 }
 
 .paper-meta {
-  font-size: 15px;
+  font-size: 17px;
   color: var(--text-secondary);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
 }
 
 .paper-meta strong {
@@ -411,12 +412,12 @@ img {
 }
 
 .paper-links {
-  margin-top: 0.5rem;
+  margin-top: 0.6rem;
 }
 
 .paper-links a {
-  font-size: 15px;
-  margin-right: 0.8rem;
+  font-size: 17px;
+  margin-right: 1rem;
   color: var(--link-color);
 }
 
@@ -424,17 +425,17 @@ img {
   text-decoration: underline;
 }
 
-/* Collapsible abstract - minimal */
+/* Collapsible abstract - larger */
 details {
-  margin-top: 0.5rem;
+  margin-top: 0.6rem;
 }
 
 summary {
   cursor: pointer;
-  font-size: 15px;
+  font-size: 17px;
   color: var(--link-color);
   user-select: none;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
 }
 
 summary:hover {
@@ -442,14 +443,14 @@ summary:hover {
 }
 
 details[open] summary {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
 }
 
 details p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
-  padding-left: 0.5rem;
-  margin-top: 0.5rem;
+  padding-left: 0.6rem;
+  margin-top: 0.6rem;
   color: var(--text-color);
 }
 
@@ -460,7 +461,7 @@ article, section {
 
 article p, article li, section p, section li {
   color: var(--text-color);
-  font-size: 18px;
+  font-size: 17px;
 }
 
 article h1, article h2, article h3, section h1, section h2, section h3 {
@@ -487,12 +488,12 @@ main > h1:first-child {
 }
 
 .content p {
-  font-size: 18px;
+  font-size: 17px;
   margin: 0 0 0.8rem 0;
 }
 
 .content li {
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .content h1 {
