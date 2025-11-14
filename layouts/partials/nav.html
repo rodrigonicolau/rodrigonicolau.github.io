@@ -3,7 +3,9 @@
 <li>
   <a href="{{ .URL }}">{{ .Name }}</a>
   {{ if eq .Name "Blog" }}
-  <button class="theme-toggle" aria-label="Toggle theme">☀️</button>
+  <button class="theme-toggle" aria-label="Toggle theme">
+    <i class="fas fa-sun"></i>
+  </button>
   {{ end }}
 </li>
 {{ end }}
