@@ -23,7 +23,7 @@ date: 2025-11-14
 ## Work in Progress
 
 <div class="paper">
-<div class="paper-title">The effects of exogenous self- and social-reference points on academic performance</div>
+<div class="paper-title">The effects of exogenous self and relative reference points on academic performance</div>
 <div class="paper-meta"><strong>joint with Mathias Fondo (Università di Bologna) and Joaquín Paleo (University of California, Davis) </strong> 
 <details>
 <summary>Abstract</summary>
