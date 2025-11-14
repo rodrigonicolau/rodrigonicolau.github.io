@@ -1,7 +1,7 @@
 /* Custom Academic Website Styling - Applied to ALL pages */
 
-/* Import Satoshi-like font - Outfit (geometric sans-serif, similar to Satoshi) */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+/* Import Space Grotesk - closest free alternative to Satoshi */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 /* Root variables for dark mode (default) */
 :root {
@@ -38,8 +38,8 @@ html {
 }
 
 body {
-  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  font-size: 14px;
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 15px;
   line-height: 1.5;
   letter-spacing: -0.01em;
   background-color: var(--bg-color);
@@ -56,11 +56,11 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-color);
   font-weight: 600;
   transition: color 0.3s ease;
-  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 h1 {
-  font-size: 1.85rem;
+  font-size: 2rem;
   line-height: 1.2;
   margin: 0.6rem 0 1rem 0;
   letter-spacing: -0.02em;
@@ -68,35 +68,35 @@ h1 {
 }
 
 h2 {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   line-height: 1.2;
   margin: 1rem 0 0.5rem 0;
   letter-spacing: -0.01em;
 }
 
 h3 {
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   line-height: 1.2;
   margin: 0.9rem 0 0.4rem 0;
   font-weight: 600;
 }
 
 h4, h5, h6 {
-  font-size: 0.95rem;
+  font-size: 1rem;
   margin: 0.8rem 0 0.4rem 0;
   font-weight: 600;
 }
 
 /* Subtitle on home page - bigger than body text */
 .home-text > p:first-of-type {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
 }
 
 /* Paragraphs */
 p {
   margin: 0 0 0.6rem 0;
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text-color);
 }
 
@@ -140,10 +140,12 @@ header nav ul {
 
 header nav li {
   margin: 0;
+  display: flex;
+  align-items: center;
 }
 
 header nav a {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   letter-spacing: -0.01em;
   color: var(--text-color);
@@ -155,10 +157,10 @@ header nav a {
   border: none;
   color: var(--text-color);
   cursor: pointer;
-  padding: 0.2rem 0.4rem;
-  margin-left: 1rem;
+  padding: 0.2rem 0.3rem;
+  margin-left: 0.4rem;
   border-radius: 3px;
-  font-size: 20px;
+  font-size: 15px;
   transition: all 0.3s ease;
   line-height: 1;
   opacity: 0.6;
@@ -179,7 +181,7 @@ li {
   margin-bottom: 0.2rem;
   line-height: 1.5;
   color: var(--text-color);
-  font-size: 14px;
+  font-size: 15px;
 }
 
 /* Blog post listings */
@@ -218,14 +220,14 @@ main h1, main h2, main h3, main h4, main h5, main h6 {
 
 main p, main li {
   color: var(--text-color);
-  font-size: 14px;
+  font-size: 15px;
 }
 
 /* Footer - Consistent across all pages */
 footer {
   margin-top: 2.5rem;
   padding-top: 0.8rem;
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-secondary);
 }
 
@@ -348,7 +350,7 @@ img {
 .contact-info a {
   color: var(--text-color);
   text-decoration: none;
-  font-size: 13px;
+  font-size: 14px;
   display: flex;
   align-items: center;
   gap: 0.3rem;
@@ -360,15 +362,15 @@ img {
 }
 
 .contact-info svg {
-  width: 13px;
-  height: 13px;
+  width: 14px;
+  height: 14px;
   flex-shrink: 0;
   fill: currentColor;
 }
 
 /* Last updated text - pushed down 5cm */
 .last-updated {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-secondary);
   font-style: italic;
   margin-top: 12rem;
@@ -378,7 +380,7 @@ img {
 
 /* Meta information */
 .meta, time {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-secondary);
 }
 
@@ -393,7 +395,7 @@ img {
 }
 
 .paper-title {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-weight: 600;
   margin-bottom: 0.3rem;
 }
@@ -403,7 +405,7 @@ img {
 }
 
 .paper-meta {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-secondary);
   margin-bottom: 0.4rem;
 }
@@ -417,7 +419,7 @@ img {
 }
 
 .paper-links a {
-  font-size: 13px;
+  font-size: 14px;
   margin-right: 0.7rem;
   color: var(--link-color);
 }
@@ -433,7 +435,7 @@ details {
 
 summary {
   cursor: pointer;
-  font-size: 13px;
+  font-size: 14px;
   color: var(--link-color);
   user-select: none;
   margin-bottom: 0.4rem;
@@ -448,7 +450,7 @@ details[open] summary {
 }
 
 details p {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.5;
   padding-left: 0.4rem;
   margin-top: 0.4rem;
@@ -462,7 +464,7 @@ article, section {
 
 article p, article li, section p, section li {
   color: var(--text-color);
-  font-size: 14px;
+  font-size: 15px;
 }
 
 article h1, article h2, article h3, section h1, section h2, section h3 {
@@ -489,61 +491,61 @@ main > h1:first-child {
 }
 
 .content p {
-  font-size: 14px;
+  font-size: 15px;
   margin: 0 0 0.6rem 0;
 }
 
 .content li {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .content h1 {
-  font-size: 1.85rem;
+  font-size: 2rem;
   line-height: 1.2;
   margin: 0.6rem 0 1rem 0;
   font-weight: 600;
 }
 
 .content h2 {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   line-height: 1.2;
   margin: 1rem 0 0.5rem 0;
 }
 
 .content h3 {
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   line-height: 1.2;
   margin: 0.9rem 0 0.4rem 0;
 }
 
 .content h4 {
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 /* Blog post meta and timestamps */
 .content time,
 .content .meta {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-secondary);
 }
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
   body {
-    font-size: 13px;
+    font-size: 14px;
     padding: 1rem;
   }
 
   h1 {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
 
   h2 {
-    font-size: 1.15rem;
+    font-size: 1.2rem;
   }
 
   h3 {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
 
   header nav {
