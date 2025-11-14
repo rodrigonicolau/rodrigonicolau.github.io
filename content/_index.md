@@ -9,7 +9,7 @@ date: 2025-11-14
 Hello! I'm a PhD Student in Economics at the University of California, Berkeley. My research lies at the intersection between Public, Development, and Behavioral Economics. 
 
 </div>
-<div class="profile-picture">
+<div class="profile-picture.jpg">
 <!-- Replace this with your profile image -->
 <!-- <img src="/images/profile.jpg" alt="Profile Picture"> -->
 Profile Picture Placeholder
