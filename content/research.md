@@ -14,7 +14,6 @@ date: 2025-11-14
 <p>This is where you write your paper abstract. Provide a concise summary of the research question, methodology, key findings, and contributions. The abstract should give readers a clear understanding of what the paper is about and why it matters.</p>
 </details>
 <div class="paper-links">
-<a href="/files/paper1-slides.pdf">Slides</a>
 <a href="#">Media</a>
 <a href="#">Code</a>
 </div>
