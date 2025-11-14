@@ -1,4 +1,4 @@
-// Theme toggle functionality - minimal half-circle indicator
+// Theme toggle functionality - Jekyll style sun/moon
 (function() {
   // Get theme from localStorage or default to dark
   const getTheme = () => localStorage.getItem('theme') || 'dark';
@@ -10,11 +10,11 @@
     updateToggleButton(theme);
   };
 
-  // Update toggle button text - minimal half-circle
+  // Update toggle button text - Jekyll style sun/moon
   const updateToggleButton = (theme) => {
     const button = document.querySelector('.theme-toggle');
     if (button) {
-      button.textContent = theme === 'dark' ? '◐' : '◑';
+      button.textContent = theme === 'dark' ? '☀️' : '🌙';
       button.setAttribute('aria-label', `Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`);
     }
   };

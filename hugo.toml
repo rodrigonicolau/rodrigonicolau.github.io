@@ -15,7 +15,7 @@ copyright = "Copyright © 2025"
 
   # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
   # Favicon path, e.g. "/favicon.png"
-  favicon = "favicon.png"
+  favicon = "favicon.svg"
 
   # These "images" are used for the structured data templates. This will show up, when
   # services like Twitter or Slack want to generate a preview of a link to your site.

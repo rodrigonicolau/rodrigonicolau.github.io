@@ -1,0 +1,1 @@
+Create a 32x32 PNG version of favicon.svg and name it favicon.png for browser compatibility
