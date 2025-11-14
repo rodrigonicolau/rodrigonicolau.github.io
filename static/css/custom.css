@@ -1,7 +1,7 @@
 /* Custom Academic Website Styling - Applied to ALL pages */
 
-/* Import compact minimalist font - DM Sans */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+/* Import Satoshi-like font - Outfit (geometric sans-serif, similar to Satoshi) */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
 
 /* Root variables for dark mode (default) */
 :root {
@@ -38,15 +38,15 @@ html {
 }
 
 body {
-  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  font-size: 15px;
-  line-height: 1.6;
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
   letter-spacing: -0.01em;
   background-color: var(--bg-color);
   color: var(--text-color);
   max-width: 750px;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 1.2rem;
   transition: background-color 0.3s ease, color 0.3s ease;
   min-height: 100vh;
 }
@@ -56,47 +56,47 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-color);
   font-weight: 600;
   transition: color 0.3s ease;
-  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 h1 {
-  font-size: 2rem;
-  line-height: 1.3;
-  margin: 0.8rem 0 1.2rem 0;
+  font-size: 1.85rem;
+  line-height: 1.2;
+  margin: 0.6rem 0 1rem 0;
   letter-spacing: -0.02em;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h2 {
-  font-size: 1.35rem;
-  line-height: 1.3;
-  margin: 1.3rem 0 0.7rem 0;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  margin: 1rem 0 0.5rem 0;
   letter-spacing: -0.01em;
 }
 
 h3 {
-  font-size: 1.1rem;
-  line-height: 1.3;
-  margin: 1.1rem 0 0.6rem 0;
+  font-size: 1.05rem;
+  line-height: 1.2;
+  margin: 0.9rem 0 0.4rem 0;
   font-weight: 600;
 }
 
 h4, h5, h6 {
-  font-size: 1rem;
-  margin: 1rem 0 0.5rem 0;
+  font-size: 0.95rem;
+  margin: 0.8rem 0 0.4rem 0;
   font-weight: 600;
 }
 
 /* Subtitle on home page - bigger than body text */
 .home-text > p:first-of-type {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
 }
 
 /* Paragraphs */
 p {
-  margin: 0 0 0.8rem 0;
-  font-size: 15px;
+  margin: 0 0 0.6rem 0;
+  font-size: 14px;
   color: var(--text-color);
 }
 
@@ -118,11 +118,11 @@ a:visited {
 
 /* Navigation header - Consistent across all pages */
 header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
 }
 
 header nav {
-  padding-bottom: 1rem;
+  padding-bottom: 0.8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -133,7 +133,7 @@ header nav ul {
   padding: 0;
   margin: 0;
   display: flex;
-  gap: 1.2rem;
+  gap: 1rem;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -143,7 +143,7 @@ header nav li {
 }
 
 header nav a {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   letter-spacing: -0.01em;
   color: var(--text-color);
@@ -171,15 +171,15 @@ header nav a {
 
 /* Lists */
 ul, ol {
-  margin: 0 0 0.8rem 0;
-  padding-left: 1.8rem;
+  margin: 0 0 0.6rem 0;
+  padding-left: 1.5rem;
 }
 
 li {
-  margin-bottom: 0.3rem;
-  line-height: 1.6;
+  margin-bottom: 0.2rem;
+  line-height: 1.5;
   color: var(--text-color);
-  font-size: 15px;
+  font-size: 14px;
 }
 
 /* Blog post listings */
@@ -209,7 +209,7 @@ ul.blog-posts li a {
 
 /* Main content area */
 main {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
 }
 
 main h1, main h2, main h3, main h4, main h5, main h6 {
@@ -218,14 +218,14 @@ main h1, main h2, main h3, main h4, main h5, main h6 {
 
 main p, main li {
   color: var(--text-color);
-  font-size: 15px;
+  font-size: 14px;
 }
 
 /* Footer - Consistent across all pages */
 footer {
-  margin-top: 3rem;
-  padding-top: 1rem;
-  font-size: 15px;
+  margin-top: 2.5rem;
+  padding-top: 0.8rem;
+  font-size: 13px;
   color: var(--text-secondary);
 }
 
@@ -301,12 +301,12 @@ img {
   border-radius: 4px;
 }
 
-/* Home page layout with profile picture - balanced size */
+/* Home page layout with profile picture - compact */
 .home-content {
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
   align-items: flex-start;
-  margin-top: 1rem;
+  margin-top: 0.8rem;
 }
 
 .home-text {
@@ -315,8 +315,8 @@ img {
 
 .profile-picture {
   flex-shrink: 0;
-  width: 280px;
-  height: 224px; /* 15:12 ratio */
+  width: 260px;
+  height: 208px; /* 15:12 ratio */
   border-radius: 3px;
   overflow: hidden;
   background-color: var(--code-bg);
@@ -325,7 +325,7 @@ img {
   align-items: center;
   justify-content: center;
   color: var(--text-secondary);
-  font-size: 15px;
+  font-size: 13px;
   text-align: center;
 }
 
@@ -335,23 +335,23 @@ img {
   object-fit: cover;
 }
 
-/* Contact information section - sized to match picture */
+/* Contact information section - compact */
 .contact-info {
   flex-shrink: 0;
-  width: 280px;
-  margin-top: 0.8rem;
+  width: 260px;
+  margin-top: 0.6rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.4rem;
 }
 
 .contact-info a {
   color: var(--text-color);
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13px;
   display: flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.3rem;
   transition: color 0.3s ease;
 }
 
@@ -360,32 +360,32 @@ img {
 }
 
 .contact-info svg {
-  width: 15px;
-  height: 15px;
+  width: 13px;
+  height: 13px;
   flex-shrink: 0;
   fill: currentColor;
 }
 
 /* Last updated text - pushed down 5cm */
 .last-updated {
-  font-size: 14px;
+  font-size: 13px;
   color: var(--text-secondary);
   font-style: italic;
   margin-top: 12rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
   padding-top: 0;
 }
 
 /* Meta information */
 .meta, time {
-  font-size: 15px;
+  font-size: 13px;
   color: var(--text-secondary);
 }
 
 /* Research paper styles - compact with clear hierarchy */
 .paper {
-  margin-bottom: 1.4rem;
-  padding-bottom: 0.9rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.8rem;
 }
 
 .paper:last-child {
@@ -393,9 +393,9 @@ img {
 }
 
 .paper-title {
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   font-weight: 600;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.3rem;
 }
 
 .paper-title a {
@@ -403,9 +403,9 @@ img {
 }
 
 .paper-meta {
-  font-size: 14px;
+  font-size: 13px;
   color: var(--text-secondary);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 .paper-meta strong {
@@ -413,12 +413,12 @@ img {
 }
 
 .paper-links {
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
 }
 
 .paper-links a {
-  font-size: 14px;
-  margin-right: 0.8rem;
+  font-size: 13px;
+  margin-right: 0.7rem;
   color: var(--link-color);
 }
 
@@ -428,15 +428,15 @@ img {
 
 /* Collapsible abstract - compact */
 details {
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
 }
 
 summary {
   cursor: pointer;
-  font-size: 14px;
+  font-size: 13px;
   color: var(--link-color);
   user-select: none;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 summary:hover {
@@ -444,25 +444,25 @@ summary:hover {
 }
 
 details[open] summary {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 details p {
-  font-size: 15px;
-  line-height: 1.6;
-  padding-left: 0.5rem;
-  margin-top: 0.5rem;
+  font-size: 12px;
+  line-height: 1.5;
+  padding-left: 0.4rem;
+  margin-top: 0.4rem;
   color: var(--text-color);
 }
 
 /* Ensure consistent spacing across pages */
 article, section {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
 }
 
 article p, article li, section p, section li {
   color: var(--text-color);
-  font-size: 15px;
+  font-size: 14px;
 }
 
 article h1, article h2, article h3, section h1, section h2, section h3 {
@@ -489,71 +489,71 @@ main > h1:first-child {
 }
 
 .content p {
-  font-size: 15px;
-  margin: 0 0 0.8rem 0;
+  font-size: 14px;
+  margin: 0 0 0.6rem 0;
 }
 
 .content li {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .content h1 {
-  font-size: 2rem;
-  line-height: 1.3;
-  margin: 0.8rem 0 1.2rem 0;
-  font-weight: 700;
+  font-size: 1.85rem;
+  line-height: 1.2;
+  margin: 0.6rem 0 1rem 0;
+  font-weight: 600;
 }
 
 .content h2 {
-  font-size: 1.35rem;
-  line-height: 1.3;
-  margin: 1.3rem 0 0.7rem 0;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  margin: 1rem 0 0.5rem 0;
 }
 
 .content h3 {
-  font-size: 1.1rem;
-  line-height: 1.3;
-  margin: 1.1rem 0 0.6rem 0;
+  font-size: 1.05rem;
+  line-height: 1.2;
+  margin: 0.9rem 0 0.4rem 0;
 }
 
 .content h4 {
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 
 /* Blog post meta and timestamps */
 .content time,
 .content .meta {
-  font-size: 15px;
+  font-size: 13px;
   color: var(--text-secondary);
 }
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
   body {
-    font-size: 14px;
+    font-size: 13px;
     padding: 1rem;
   }
 
   h1 {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 
   h2 {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
   }
 
   h3 {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   header nav {
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.8rem;
+    gap: 0.6rem;
   }
 
   header nav ul {
-    gap: 1rem;
+    gap: 0.8rem;
   }
 
   .home-content {
@@ -562,12 +562,12 @@ main > h1:first-child {
   }
 
   .profile-picture {
-    width: 220px;
-    height: 176px; /* Maintain 15:12 ratio */
+    width: 200px;
+    height: 160px; /* Maintain 15:12 ratio */
   }
 
   .contact-info {
-    width: 220px;
+    width: 200px;
   }
 }
 
