@@ -15,7 +15,7 @@ date: 2025-11-14
 </details>
 <div class="paper-links">
 <a href="https://www.infobae.com/america/america-latina/2023/10/11/los-planes-sociales-en-uruguay-aumentan-la-verguenza-y-humillacion-de-sus-beneficiarios-segun-un-estudio/">infobae</a>
-<a href="[#](https://www.elpais.com.uy/negocios/noticias/verguenza-y-humillacion-los-efectos-no-deseados-en-los-uruguayos-que-reciben-planes-sociales-segun-estudio)">EL PAÍS</a>
+<a href="https://www.elpais.com.uy/negocios/noticias/verguenza-y-humillacion-los-efectos-no-deseados-en-los-uruguayos-que-reciben-planes-sociales-segun-estudio">EL PAÍS</a>
   <a href="https://www.elobservador.com.uy/nota/la-tarjeta-del-mides-aumenta-la-humillacion-de-quienes-la-poseen-dice-estudio-202383018260">El Observador</a>
 </div>
 </div>
