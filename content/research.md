@@ -14,8 +14,9 @@ date: 2025-11-14
 <p>Welfare stigma has primarily been studied as a barrier to take-up, but its effects on enrolled beneficiaries remain unknown. This paper provides causal evidence of stigma effects by exploiting regression discontinuities in Uruguay's two largest social assistance programs using administrative and survey data. I find welfare participation significantly increases stigma among recipients. Distinguishing between self- and social-image concerns reveals that both programs increase personal stigma, while social stigma emerges when benefits are delivered through a visible card. These findings show that stigma is present after enrollment and varies with institutional design.</p>
 </details>
 <div class="paper-links">
-<a href="#">Media</a>
-<a href="#">Slides</a>
+<a href="https://www.infobae.com/america/america-latina/2023/10/11/los-planes-sociales-en-uruguay-aumentan-la-verguenza-y-humillacion-de-sus-beneficiarios-segun-un-estudio/">infobae</a>
+<a href="[#](https://www.elpais.com.uy/negocios/noticias/verguenza-y-humillacion-los-efectos-no-deseados-en-los-uruguayos-que-reciben-planes-sociales-segun-estudio)">EL PAÍS</a>
+  <a href="https://www.elobservador.com.uy/nota/la-tarjeta-del-mides-aumenta-la-humillacion-de-quienes-la-poseen-dice-estudio-202383018260">El Observador</a>
 </div>
 </div>
 
