@@ -23,11 +23,11 @@ In the media: <a href="https://www.youtube.com/watch?v=3giGyACTeyc/">[Webcast]<a
 ## Work in Progress
 
 <div class="paper">
-<div class="paper-title">The effects of exogenous self and relative reference points on academic performance</div>
+<div class="paper-title">Grades, Academic Performance, and Labor Market Outcomes</div>
 <div class="paper-meta"><strong>joint with Mathias Fondo (Università di Bologna) and Joaquín Paleo (University of California, Davis) </strong> 
 <details>
 <summary>Abstract</summary>
-<p>This study investigates how two performance signals-a student's own grade and their relative standing among peers—causally affect future academic and labor market perfomance Using administrative data from Uruguay's largest university matched with employer-employee records, we show that earning a marginally higher first-semester grade significantly increases subsequent perfomance Additionally, by leveraging a unique policy where students see an alphabetically ordered grade list, we find that having the highest grade relative to close neighbors increases future performance by about one-third of the "self-signal" effect.</p>
+<p>This study investigates how two performance signals-a student's own grade and their relative standing among peers—causally affect future academic and labor market perfomance. Using administrative data from Uruguay's largest university matched with employer-employee records, we show that earning a marginally higher first-semester grade significantly increases subsequent perfomance, Additionally, by leveraging a unique policy where students see an alphabetically ordered grade list, we find that having the highest grade relative to close neighbors increases future performance by about one-third of the "self-signal" effect.</p>
 </details>
 </div>
 
